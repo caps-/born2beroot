@@ -5,4 +5,4 @@
 
 # where I'm up to
 
-- Set up is done I think. Start thinking about adding wordress shit and a cool extra service.
+- lighttpd is installed, get going with the rest..
