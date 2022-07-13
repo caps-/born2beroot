@@ -11,4 +11,4 @@
 
 # sofie's laptop
 
-- got up to setting up sudoers.d
+- changed root and user pwd, time to set up monitoring wall.
