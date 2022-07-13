@@ -11,7 +11,7 @@
 
 # sofie's laptop
 
-- Done the main bit, no bonuses yet.
+- Bonuses, just installed lighttpd
 
 # shit to remember
 ## change the hostname
