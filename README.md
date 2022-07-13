@@ -38,3 +38,8 @@ $ sudo vim /etc/hosts
 $ sudo reboot
 $ hostnamectl
 ```
+- Deleting ufw rules
+```
+$ sudo ufw status numbered
+$ sudo ufw delete (that number, for example 5 or 6)
+```
