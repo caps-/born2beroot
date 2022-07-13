@@ -11,4 +11,30 @@
 
 # sofie's laptop
 
-- changed root and user pwd, time to set up monitoring wall.
+- Done the main bit, no bonuses yet.
+
+# shit to remember
+## change the hostname
+
+- Check the current hostname
+```
+$ hostnamectl
+```
+- Change the hostname
+```
+$ hostnamectl set-hostname <whateverNameYouWantGoesHere>
+```
+- Change /etc/hosts file
+```
+$ sudo vim /etc/hosts
+```
+- Change the old hostname to the new new one
+```
+127.0.0.1       localhost
+127.0.0.1       <whateverNewNameYouWantGoesHere>
+```
+- Reboot and check the change
+```
+$ sudo reboot
+$ hostnamectl
+```
