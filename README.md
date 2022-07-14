@@ -52,7 +52,7 @@ $ sudo adduser <newusername>
 $ sudo groupadd <newgroupname>
 ```
 - Check groups
-'''
+```
 $ getent grouup
 ```
 - Add user to groupp
