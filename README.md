@@ -43,3 +43,28 @@ $ hostnamectl
 $ sudo ufw status numbered
 $ sudo ufw delete (that number, for example 5 or 6)
 ```
+- Adding a new user
+```
+$ sudo adduser <newusername>
+```
+- Add usergroup
+```
+$ sudo groupadd <newgroupname>
+```
+- Check groups
+'''
+$ getent grouup
+```
+- Add user to groupp
+```
+$ sudo usermod -aG <groupname> <username>
+```
+- Check if user is in group
+```
+$ getent group <groupname>
+```
+- Check which groups current acct belongs to
+```
+$ groups
+```
+
