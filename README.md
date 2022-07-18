@@ -70,5 +70,5 @@ $ groups
 - Stop and start cron
 ```
 $ sudo /sbin/service cron stop
-$sudo /sbin/service cron start
+$ sudo /sbin/service cron start
 ```
