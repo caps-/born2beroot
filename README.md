@@ -75,7 +75,7 @@ $ sudo /sbin/service cron stop
 $ sudo /sbin/service cron start
 ```
 # OI, MAKE ALIASES FOR SHIT!
-For example, in your ~/.bashrc add the following:
+You can't remember shit, so make aiases. For example, in your ~/.bashrc add the following:
 ```
 alias sudo='sudo '
 alias cronstart='/sbin/service cron stop'
