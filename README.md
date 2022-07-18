@@ -69,6 +69,10 @@ $ getent group <groupname>
 ```
 $ groups
 ```
+- Check users password shit
+```
+$ sudo chage -l <username>
+```
 - Stop and start cron
 ```
 $ sudo /sbin/service cron stop
