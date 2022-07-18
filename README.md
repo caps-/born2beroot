@@ -74,8 +74,8 @@ $ groups
 $ sudo /sbin/service cron stop
 $ sudo /sbin/service cron start
 ```
-# OI, MAKE ALIASES CASUE YOU'LL FORGET HOW TO START AND STOP CRON
-In your ~/.bashrc add the following:
+# OI, MAKE ALIASES FOR SHIT!
+For example, in your ~/.bashrc add the following:
 ```
 alias sudo='sudo '
 alias cronstart='/sbin/service cron stop'
