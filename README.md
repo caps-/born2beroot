@@ -87,3 +87,6 @@ alias sudo='sudo '
 alias cronstart='/sbin/service cron stop'
 alias cronstop='/sbin/service cron stop'
 ```
+# `apt` vs `apt-get`
+
+There's layers to this shit, so bear with me. Right, so Debian uses a package manager called `dpkg` which kinda does what it says, it handles packages. APT (Advanced Packaging Tool), which is *not* to be confused with the command `apt`, is a set of package management tools that that are built on top of `dpkg`. Then there are tools built on top of *that* such as Aptitude and `apt-get`. Now tools like `apt-get` are really good, but they're also really complicated in the sense that they almost have too many features and options. This is where `apt` comes in. `apt` is build on top of `apt-get`, and esentially simplifies it. A lot of the most widely used features from `apt-get` (and `apt-cache` which sort of like the search tool for `apt-get`) are bundled in or turned on/off as standard with `apt`, with a lot of the more osbscure ones left out.
