@@ -80,6 +80,12 @@ $ sudo chage -l <username>
 $ sudo /sbin/service cron stop
 $ sudo /sbin/service cron start
 ```
+- Check fail2ban shit
+```
+$ sudo fail2ban-client status
+$ sudo fail2ban-client status sshd
+$ sudo tail -f /var/log/fail2ban.log
+```
 # OI, MAKE ALIASES FOR SHIT!
 You can't remember shit, so make aliases. For example, in your ~/.bashrc add the following:
 ```
