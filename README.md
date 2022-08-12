@@ -42,10 +42,18 @@ $ sudo vim /etc/hosts
 $ sudo reboot
 $ hostnamectl
 ```
+- Check ufw shit
+```
+$ sudo ufw status 
+```
 - Deleting ufw rules
 ```
 $ sudo ufw status numbered
 $ sudo ufw delete (that number, for example 5 or 6)
+```
+- Check ssh
+```
+$sudo systemctl sshd status
 ```
 - Adding a new user
 ```
