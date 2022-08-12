@@ -1,24 +1,27 @@
-# born2beroot
+# libft 🇫🇷🇦🇺 (passed 125/100)
+
+Not going to put all the steps in here because other people have done a *much* better job at doing that. I'll link a few below that I found super
+useful.
+****
+
+### step by step stuff
 
 - https://github.com/IsCoffeeTho/42-Born2BeRoot
-- https://baigal.medium.com/born2beroot-e6e26dfb50ac
-- https://github.com/hanshazairi/42-born2beroot
 - https://github.com/ayoub0x1/born2beroot
+- https://baigal.medium.com/born2beroot-e6e26dfb50ac
+
+### bonuses
+
+I had no idea how to do the bonuses so I just followed this.
 
 - https://www.codequoi.com/en/born2beroot-03-installing-wordpress-on-a-debian-server/#installing_mariadb_database_manager_for_wordpress
 
-# where I'm up to
+****
 
-OMG don't forget to edit /etc/security/pwquality.conf!!
-- https://websiteforstudents.com/install-wordpress-on-ubuntu-16-04-lts-with-lighttpd-mariadb-and-php-7-1-support/
-- https://www.how2shout.com/linux/how-to-install-lighttpd-web-server-on-debian-11-bullseye-or-ubuntu-20-04/
+## Shit to remember for the evaluation
 
-# sofie's laptop
-
-- Bonuses, just installed lighttpd
-
-# shit to remember
-## change the hostname
+There's more obviously, but these were the ones I had written down here.
+<br><br>
 
 - Check the current hostname
 ```
@@ -115,8 +118,12 @@ There's layers to this shit, so bear with me. Right, so Debian uses a package ma
 
 ## Extra Dumb Shit
 
+This stuff is COMPLETELY unnecessary but I got bored and did it while I was waiting to do enough evals to get enough points to get this evaulated lol.
+
 - Change the prompt a bit, put this in ~/.bashrc, around line 60:
 ```
 PS1='${debian_chroot:+($debian_chroot)}\[\e[0;90m\][\[\e[0;92m\]\u\[\e[0;32m\]@\[\e[0;32m\]\h\[\e[0;90m\]]\[\e[0    ;36m\]\w\[\e[0;90m\]$\[\e[0m\] '
 ```
-I've also got a bunch of extra shit running like irssi, screen and htop, just because.
+Nothing special, I just used some online prompt making tool thing, just Google that shit if you feel like doing it.
+
+I also a few extra things like irssi, screen and htop, just because.
