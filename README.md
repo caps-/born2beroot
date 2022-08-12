@@ -5,7 +5,7 @@
 - https://github.com/hanshazairi/42-born2beroot
 - https://github.com/ayoub0x1/born2beroot
 
--https://www.codequoi.com/en/born2beroot-03-installing-wordpress-on-a-debian-server/#installing_mariadb_database_manager_for_wordpress
+- https://www.codequoi.com/en/born2beroot-03-installing-wordpress-on-a-debian-server/#installing_mariadb_database_manager_for_wordpress
 
 # where I'm up to
 
