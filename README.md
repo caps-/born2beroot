@@ -119,3 +119,4 @@ There's layers to this shit, so bear with me. Right, so Debian uses a package ma
 ```
 PS1='${debian_chroot:+($debian_chroot)}\[\e[0;90m\][\[\e[0;92m\]\u\[\e[0;32m\]@\[\e[0;32m\]\h\[\e[0;90m\]]\[\e[0    ;36m\]\w\[\e[0;90m\]$\[\e[0m\] '
 ```
+I've also got a bunch of extra shit running like irssi, screen and htop, just because.
