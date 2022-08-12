@@ -83,6 +83,10 @@ $ groups
 ```
 $ sudo chage -l <username>
 ```
+- Check partitions
+```
+$ lsblk
+```
 - Stop and start cron
 ```
 $ sudo /sbin/service cron stop
