@@ -118,7 +118,7 @@ There's layers to this shit, so bear with me. Right, so Debian uses a package ma
 
 ## Extra Dumb Shit
 
-This stuff is COMPLETELY unnecessary but I got bored and did it while I was waiting to do enough evals to get enough points to get this evaulated lol.
+This stuff is COMPLETELY unnecessary but I got bored and did it while I was waiting to do evals to get enough points to get this evaulated lol.
 
 - Change the prompt a bit, put this in ~/.bashrc, around line 60:
 ```
