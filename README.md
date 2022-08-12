@@ -87,6 +87,10 @@ $ sudo chage -l <username>
 ```
 $ lsblk
 ```
+- Set up/edit cron job
+```
+$ sudo crontab -u root -e
+```
 - Stop and start cron
 ```
 $ sudo /sbin/service cron stop
