@@ -1,4 +1,4 @@
-# libft 🇫🇷🇦🇺 (passed 125/100)
+# born2beroot 🇫🇷🇦🇺 (passed 125/100)
 
 Not going to put all the steps in here because other people have done a *much* better job at doing that. I'll link a few below that I found super
 useful.
